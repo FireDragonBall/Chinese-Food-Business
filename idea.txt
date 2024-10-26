@@ -1,0 +1,53 @@
+Hey Tia! Let's make a project together :)
+Sure Kev :D
+
+
+## Description
+I am looking into extracting data from an api to manipulate and display on a website to get some
+customers for our shared business. I will place the data I get from the api into a csv for you to 
+manipulate the data the way we want so the customer will buy the items we am selling. We want
+to show how our item (still thinking of what we can sell, maybe chicken lo mein...?) is cheaper
+while still tasting good!
+
+Let's also show how you manipulated the data to our coding friends and to jobs that want to hire
+you so you can show off to them!
+
+Also between you and me, We gotta get some money from this side hustle to take a trip together to China 
+so you can show me your favorite spots ;)
+
+
+## Resources
+This is a machine learning course from Kaggle that I think would be good for you
+to learn for this project to display the models! I would start with looking the
+intro course first:
+- https://www.kaggle.com/learn/intro-to-machine-learning
+
+and if needed, we can look into the others:
+- https://www.kaggle.com/learn/intermediate-machine-learning
+- https://www.kaggle.com/learn/machine-learning-explainability
+
+Look into these ways to make graphs. I will work with you to add them to the frontend at the end:
+- https://www.kaggle.com/learn/data-visualization
+
+
+
+
+## Deliverables (Final result for this project)
+- take the csv file and create 3 different graphs (you can pick which you want)
+- outline them in a python file so I can use the data
+- outline them as well using jupyter notebook (or whatever data tool) to add to github repo
+
+
+## Bonus (if you have the energy)
+I know that the courses have some machine learning stuff, but lets look together at some linkedin
+jobs applications and see if theres a new tool we can use to make this cooler and get you
+more experiences!
+
+
+## Extraneous stuff
+I will be adding your graphs to the frontend. You can view that by going to your directory and
+opening the "index.html" file with a browser, like Google chrome when right clicking on it. 
+Since thats the case, we can make the graphs a interesting color scheme!
+
+Let me know if you need help at anytime. I am not a data scientist, but I can learn as much with you
+as you need me to as I try to guide you to eventually learn how to research yourself :)

@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #141414; /* Darker background */
+    color: #ECEFF1;
+  }
+  
+  .container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    padding: 30px;
+    background-color: #1C1C1C; /* Darker shade */
+    color: #C62828; /* Darker red */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  footer {
+    background-color: #1C1C1C;
+    color: #999999;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: #2E2E2E; /* Dark grey */
+    width: 250px;
+    padding: 30px 20px;
+    position: fixed;
+    height: 100%;
+    box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.3);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .sidebar h2 {
+    color: #C62828;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .sidebar-btn {
+    display: block;
+    background-color: #C62828; /* Dark red */
+    color: #ECEFF1;
+    border: none;
+    padding: 15px 20px;
+    margin: 10px 0;
+    width: 90%; /* Ensure buttons fit inside the sidebar */
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .sidebar-btn:hover {
+    background-color: #B71C1C;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sidebar-btn:focus {
+    outline: none;
+  }
+  
+  /* Main Content */
+  .main-content {
+    margin-left: 250px;
+    padding: 40px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* Description Section */
+#description {
+    margin: 30px;
+    padding: 30px;
+    background-color: #1C1C1C; /* Darker shade */
+    border-radius: 15px;
+    border: 1px solid #C62828;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    max-width: 800px; /* Limit the width for readability */
+    text-align: center; /* Center text */
+    margin-left: auto;  /* Center the entire description block */
+    margin-right: auto; /* Center the entire description block */
+  }
+
+  #home {
+    padding: 15px 20px;
+  }
+  
+  .home-btn {
+    display: block;
+    background-color: #C62828; /* Dark red */
+    color: #ECEFF1;
+    border: none;
+    padding: 15px;
+    margin: 10px;
+    width: 90%; /* Ensure buttons fit inside the sidebar */
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none; /* Remove underline */
+  }
+
+  .home-btn:hover {
+    background-color: #B71C1C;
+    padding: 15px;
+    margin: 10px;
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  #graph1 {
+    display: block;
+  }
+
+  #graph2 {
+    display: block;
+  }
+
+  #graph3 {
+    display: block;
+  }
+  
+  /* Responsiveness */
+  @media screen and (max-width: 768px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+  
+    .main-content {
+      margin-left: 0;
+    }
+  
+    header {
+      padding: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .sidebar-btn {
+      padding: 15px;
+      width: 100%; /* For smaller screens, ensure buttons take full width */
+    }
+  }
+  
